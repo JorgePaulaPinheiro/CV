@@ -311,7 +311,7 @@ function App() {
               <div className="contact-items">
                 <div className="contact-item">
                   <span className="contact-icon">📍</span>
-                  <span>Chemin de Mourat 24, 1095 Lutry, Switzerland</span>
+                  <span>Lausanne, Switzerland</span>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">📱</span>
@@ -328,6 +328,18 @@ function App() {
             <p>© 2026 Jorge Paula Pinheiro · Built with React</p>
           </footer>
         </div>
+      </section>
+    </div>
+  )
+}
+
+export default App
+   </div>
+  )
+}
+
+export default App
+    </div>
       </section>
     </div>
   )
