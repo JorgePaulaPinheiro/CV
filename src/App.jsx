@@ -1,153 +1,331 @@
-import './cv-clean.css'
+import { useEffect, useState } from 'react'
+import './portfolio.css'
 
 function App() {
-  return (
-    <div className="cv-container">
-      {/* Header */}
-      <header className="cv-header">
-        <h1 className="cv-name">JORGE PAULA PINHEIRO</h1>
-        <div className="cv-contact">
-          Chemin de Mourat 24, 1095 Lutry | +41 78 615 92 90 | jorge.paulapinheiro@gmail.com
-        </div>
-      </header>
+  const [scrolled, setScrolled] = useState(false)
 
-      {/* Objectif */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Objectif</h2>
-        <p className="cv-objectif">
-          Economics student with solid professional experience in information technology, 
-          currently completing my bachelor's degree while engaged in an intensive language 
-          program abroad alongside my studies. I aim to pivot my career toward economic and 
-          financial analysis, leveraging both my technical skills and academic training.
-        </p>
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+  }
+
+  return (
+    <div className="portfolio">
+      {/* Navigation */}
+      <nav className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>
+        <div className="nav-container">
+          <div className="nav-logo">JPP</div>
+          <ul className="nav-links">
+            <li onClick={() => scrollTo('about')}>About</li>
+            <li onClick={() => scrollTo('education')}>Education</li>
+            <li onClick={() => scrollTo('experience')}>Experience</li>
+            <li onClick={() => scrollTo('skills')}>Skills</li>
+            <li onClick={() => scrollTo('hobbies')}>Hobbies</li>
+            <li onClick={() => scrollTo('contact')}>Contact</li>
+          </ul>
+        </div>
+      </nav>
+
+      {/* Hero */}
+      <section className="hero">
+        <div className="hero-content">
+          <p className="hero-greeting">Hello, I'm</p>
+          <h1 className="hero-name">JORGE PAULA PINHEIRO</h1>
+          <p className="hero-title">
+            <span className="typing">Economics Student · Data Analyst · IT Professional</span>
+          </p>
+          <p className="hero-location">📍 Lausanne, Switzerland · 🎓 Bachelor in Economics · 🇨🇳 Learning Mandarin</p>
+          <div className="hero-buttons">
+            <button onClick={() => scrollTo('contact')} className="btn-primary">Get in Touch</button>
+            <button onClick={() => scrollTo('about')} className="btn-secondary">Learn More</button>
+          </div>
+        </div>
+        <div className="hero-scroll" onClick={() => scrollTo('about')}>
+          <span>↓</span>
+        </div>
       </section>
 
-      {/* Formation */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Formation</h2>
-        
-        <div className="cv-item">
-          <div className="cv-item-header">
-            <span className="cv-item-title">Bachelor in Economics and Management</span>
-            <span className="cv-item-date">2023 – Present</span>
+      {/* About / Objectif */}
+      <section id="about" className="section section-white">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">01. About Me</span>
+            <h2 className="section-title">Bridging Technology & Economics</h2>
           </div>
-          <div className="cv-item-subtitle">UniDistance Switzerland | 152/180 ECTS, GPA 5.66/6</div>
-          <ul className="cv-item-details">
-            <li>Macroeconomics, money and finance, econometrics, business management, accounting</li>
-          </ul>
-          <div className="cv-memoire">
-            <div className="cv-memoire-title">Bachelor Thesis</div>
-            <div className="cv-memoire-desc">
-              Stabilizing effect of macroprudential measures and capital controls against 
-              international financial shocks — Panel data (IMF, BIS), regressions in R, 
-              analysis of shock transmissions (VIX, GFC) on real estate markets.
+          <div className="about-grid">
+            <div className="about-text">
+              <p>
+                Economics student with solid professional experience in information technology, 
+                currently completing my bachelor's degree while engaged in an intensive language 
+                program abroad alongside my studies.
+              </p>
+              <p>
+                I aim to pivot my career toward economic and financial analysis, leveraging both 
+                my technical skills and academic training. My background combines 8 years of IT 
+                infrastructure experience with rigorous quantitative training in econometrics, 
+                macroeconomics, and financial modeling.
+              </p>
+            </div>
+            <div className="about-highlights">
+              <div className="highlight-card">
+                <span className="highlight-number">8+</span>
+                <span className="highlight-label">Years IT Experience</span>
+              </div>
+              <div className="highlight-card">
+                <span className="highlight-number">5.66</span>
+                <span className="highlight-label">GPA / 6</span>
+              </div>
+              <div className="highlight-card">
+                <span className="highlight-number">4</span>
+                <span className="highlight-label">Languages</span>
+              </div>
+              <div className="highlight-card">
+                <span className="highlight-number">152</span>
+                <span className="highlight-label">ECTS Earned</span>
+              </div>
             </div>
           </div>
         </div>
-
-        <div className="cv-item">
-          <div className="cv-item-header">
-            <span className="cv-item-title">Chinese Language Program — CSC Scholar</span>
-            <span className="cv-item-date">2025 – Present</span>
-          </div>
-          <div className="cv-item-subtitle">Sichuan University | Intensive program, Mandarin immersion</div>
-        </div>
-
-        <div className="cv-item">
-          <div className="cv-item-header">
-            <span className="cv-item-title">CFC in Computer Science</span>
-            <span className="cv-item-date">2015 – 2017</span>
-          </div>
-          <div className="cv-item-subtitle">CPNV</div>
-        </div>
       </section>
 
-      {/* Compétences */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Compétences</h2>
-        <div className="cv-skills-grid">
-          <div>
-            <span className="cv-skill-category">Data:</span>
-            <span className="cv-skill-list"> R, SQL, Excel, Python</span>
+      {/* Education */}
+      <section id="education" className="section section-gray">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">02. Education</span>
+            <h2 className="section-title">Academic Background</h2>
           </div>
-          <div>
-            <span className="cv-skill-category">Finance:</span>
-            <span className="cv-skill-list"> Financial analysis, DCF models, comparables</span>
-          </div>
-          <div>
-            <span className="cv-skill-category">Econ:</span>
-            <span className="cv-skill-list"> Macroeconomics, econometrics, international finance</span>
-          </div>
-          <div>
-            <span className="cv-skill-category">Accounting:</span>
-            <span className="cv-skill-list"> Financial accounting, management control</span>
-          </div>
-          <div>
-            <span className="cv-skill-category">Code:</span>
-            <span className="cv-skill-list"> PowerShell, C#, PHP, JavaScript</span>
-          </div>
-          <div>
-            <span className="cv-skill-category">Soft:</span>
-            <span className="cv-skill-list"> Rigorous, synthesis, documentation, collaboration</span>
-          </div>
-        </div>
-      </section>
-
-      {/* Expérience */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Expérience Professionnelle</h2>
-        
-        <div className="cv-item">
-          <div className="cv-item-header">
-            <span className="cv-item-title">IT Technician</span>
-            <span className="cv-item-date">2017 – 2025</span>
-          </div>
-          <div className="cv-item-subtitle">CHUV — Centre Hospitalier Universitaire Vaudois, Lausanne</div>
-          <ul className="cv-item-details">
-            <li>Installation, maintenance and troubleshooting of IT equipment (10,000+ workstations)</li>
-            <li>Interventions on non-standard and specialized systems requiring analysis and adaptation</li>
-            <li>Technical support to users: diagnosis, resolution and incident documentation</li>
-            <li>Writing and standardization of technical procedures for the team</li>
-            <li>Methodical work under pressure respecting priorities and deadlines</li>
-            <li>Technical leadership: stimulating collaboration and reconciling interests within the team</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Langues */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Langues</h2>
-        <div className="cv-languages">
-          <div className="cv-lang-row">
-            <span className="cv-lang-name">French</span>
-            <span className="cv-lang-level">Native</span>
-          </div>
-          <div className="cv-lang-row">
-            <span className="cv-lang-name">Portuguese</span>
-            <span className="cv-lang-level">Native</span>
-          </div>
-          <div className="cv-lang-row">
-            <span className="cv-lang-name">English</span>
-            <span className="cv-lang-level">Fluent (IELTS 8/9)</span>
-          </div>
-          <div className="cv-lang-row">
-            <span className="cv-lang-name">Chinese</span>
-            <span className="cv-lang-level">Intermediate (HSK3 294/300)</span>
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>Bachelor in Economics and Management</h3>
+                  <span className="timeline-date">2023 – Present</span>
+                </div>
+                <p className="timeline-subtitle">UniDistance Switzerland · 152/180 ECTS · GPA 5.66/6</p>
+                <ul className="timeline-list">
+                  <li>Macroeconomics, Money and Finance, Econometrics, Business Management, Accounting</li>
+                </ul>
+                <div className="thesis-box">
+                  <strong>Bachelor Thesis</strong>
+                  <p>Stabilizing effect of macroprudential measures and capital controls against international financial shocks — Panel data (IMF, BIS), regressions in R, analysis of shock transmissions on real estate markets.</p>
+                </div>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>Chinese Language Program — CSC Scholar</h3>
+                  <span className="timeline-date">2025 – Present</span>
+                </div>
+                <p className="timeline-subtitle">Sichuan University · Intensive program, Mandarin immersion</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>CFC in Computer Science</h3>
+                  <span className="timeline-date">2015 – 2017</span>
+                </div>
+                <p className="timeline-subtitle">CPNV</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Hobbies - Gardé comme demandé */}
-      <section className="cv-section">
-        <h2 className="cv-section-title">Hobbies</h2>
-        <div className="cv-hobbies">
-          <div className="cv-hobbies-list">
-            <span className="cv-hobby-item">🏔️ Alpine Hiking</span>
-            <span className="cv-hobby-item">📚 Economics Literature</span>
-            <span className="cv-hobby-item">🎸 Guitar</span>
-            <span className="cv-hobby-item">♟️ Chess</span>
-            <span className="cv-hobby-item">🌏 Language Learning</span>
+      {/* Experience */}
+      <section id="experience" className="section section-white">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">03. Experience</span>
+            <h2 className="section-title">Professional Journey</h2>
           </div>
+          <div className="experience-card">
+            <div className="exp-header">
+              <div>
+                <h3>IT Technician</h3>
+                <p className="exp-company">CHUV — Centre Hospitalier Universitaire Vaudois, Lausanne</p>
+              </div>
+              <span className="exp-date">2017 – 2025</span>
+            </div>
+            <ul className="exp-list">
+              <li>Installation, maintenance and troubleshooting of IT equipment (<strong>10,000+ workstations</strong>)</li>
+              <li>Interventions on non-standard and specialized systems requiring analysis and adaptation</li>
+              <li>Technical support to users: diagnosis, resolution and incident documentation</li>
+              <li>Writing and standardization of technical procedures for the team</li>
+              <li>Methodical work under pressure respecting priorities and deadlines</li>
+              <li>Technical leadership: stimulating collaboration and reconciling interests within the team</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills */}
+      <section id="skills" className="section section-gray">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">04. Skills</span>
+            <h2 className="section-title">Competencies</h2>
+          </div>
+          <div className="skills-grid">
+            <div className="skill-category">
+              <h4>📊 Data & Analytics</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">R</span>
+                <span className="skill-tag">SQL</span>
+                <span className="skill-tag">Excel</span>
+                <span className="skill-tag">Python</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>💰 Finance</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">Financial Analysis</span>
+                <span className="skill-tag">DCF Models</span>
+                <span className="skill-tag">Comparables</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>📈 Economics</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">Macroeconomics</span>
+                <span className="skill-tag">Econometrics</span>
+                <span className="skill-tag">Int. Finance</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>📋 Accounting</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">Financial Accounting</span>
+                <span className="skill-tag">Management Control</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>💻 Programming</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">PowerShell</span>
+                <span className="skill-tag">C#</span>
+                <span className="skill-tag">PHP</span>
+                <span className="skill-tag">JavaScript</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>🤝 Soft Skills</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">Rigorous</span>
+                <span className="skill-tag">Synthesis</span>
+                <span className="skill-tag">Documentation</span>
+                <span className="skill-tag">Collaboration</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Languages */}
+          <div className="languages-section">
+            <h3>🌍 Languages</h3>
+            <div className="languages-grid">
+              <div className="language-item">
+                <span className="lang-flag">🇫🇷</span>
+                <span className="lang-name">French</span>
+                <span className="lang-level">Native</span>
+              </div>
+              <div className="language-item">
+                <span className="lang-flag">🇵🇹</span>
+                <span className="lang-name">Portuguese</span>
+                <span className="lang-level">Native</span>
+              </div>
+              <div className="language-item">
+                <span className="lang-flag">🇬🇧</span>
+                <span className="lang-name">English</span>
+                <span className="lang-level">Fluent (IELTS 8/9)</span>
+              </div>
+              <div className="language-item">
+                <span className="lang-flag">🇨🇳</span>
+                <span className="lang-name">Chinese</span>
+                <span className="lang-level">Intermediate (HSK3 294/300)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hobbies */}
+      <section id="hobbies" className="section section-white">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">05. Beyond Work</span>
+            <h2 className="section-title">Hobbies & Interests</h2>
+          </div>
+          <div className="hobbies-grid">
+            <div className="hobby-card">
+              <div className="hobby-icon">🏔️</div>
+              <h4>Alpine Hiking</h4>
+              <p>Exploring Swiss mountains and nature trails</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">📚</div>
+              <h4>Economics Literature</h4>
+              <p>Reading papers on macroeconomics and finance</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">🎸</div>
+              <h4>Guitar</h4>
+              <p>Acoustic guitar and music composition</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">♟️</div>
+              <h4>Chess</h4>
+              <p>Strategic thinking and problem solving</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">🌏</div>
+              <h4>Language Learning</h4>
+              <p>Currently immersed in Mandarin Chinese</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="contact" className="section section-dark">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag section-tag-light">06. Get in Touch</span>
+            <h2 className="section-title section-title-light">Let's Connect</h2>
+          </div>
+          <div className="contact-grid">
+            <div className="contact-info">
+              <p className="contact-intro">I'm currently looking for opportunities in economic analysis, financial analysis, and data roles. Open to internships and entry-level positions starting August 2026.</p>
+              <div className="contact-items">
+                <div className="contact-item">
+                  <span className="contact-icon">📍</span>
+                  <span>Chemin de Mourat 24, 1095 Lutry, Switzerland</span>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">📱</span>
+                  <a href="tel:+41786159290">+41 78 615 92 90</a>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">✉️</span>
+                  <a href="mailto:jorge.paulapinheiro@gmail.com">jorge.paulapinheiro@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer className="footer">
+            <p>© 2026 Jorge Paula Pinheiro · Built with React</p>
+          </footer>
         </div>
       </section>
     </div>
