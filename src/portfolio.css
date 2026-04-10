@@ -565,6 +565,19 @@ body {
   color: var(--gray);
 }
 
+.hobby-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hobby-link:hover {
+  color: var(--primary-dark);
+}
+
 /* Contact */
 .contact-grid {
   max-width: 600px;

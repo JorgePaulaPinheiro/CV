@@ -269,24 +269,25 @@ function App() {
           </div>
           <div className="hobbies-grid">
             <div className="hobby-card">
-              <div className="hobby-icon">🏔️</div>
-              <h4>Alpine Hiking</h4>
-              <p>Exploring Swiss mountains and nature trails</p>
-            </div>
-            <div className="hobby-card">
-              <div className="hobby-icon">📚</div>
-              <h4>Economics Literature</h4>
-              <p>Reading papers on macroeconomics and finance</p>
-            </div>
-            <div className="hobby-card">
               <div className="hobby-icon">🎸</div>
-              <h4>Guitar</h4>
-              <p>Acoustic guitar and music composition</p>
+              <h4>Music Production</h4>
+              <p>Cyber Metal / Industrial Metal artist</p>
+              <a href="https://open.spotify.com/intl-fr/artist/0CKa7wVI7tiJaFdIBNHw8T" target="_blank" rel="noopener noreferrer" className="hobby-link">Listen on Spotify →</a>
             </div>
             <div className="hobby-card">
-              <div className="hobby-icon">♟️</div>
-              <h4>Chess</h4>
-              <p>Strategic thinking and problem solving</p>
+              <div className="hobby-icon">🎮</div>
+              <h4>Video Games</h4>
+              <p>Passionate gamer exploring virtual worlds and interactive storytelling</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">✈️</div>
+              <h4>Traveling</h4>
+              <p>Exploring new cultures and destinations. Recent focus on Asia-Pacific region</p>
+            </div>
+            <div className="hobby-card">
+              <div className="hobby-icon">🚴</div>
+              <h4>Cycling</h4>
+              <p>Enjoying the outdoors on two wheels</p>
             </div>
             <div className="hobby-card">
               <div className="hobby-icon">🌏</div>
