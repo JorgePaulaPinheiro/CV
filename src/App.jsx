@@ -56,7 +56,7 @@ function App() {
       <section id="about" className="section section-white">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">01. About Me</span>
+            <span className="section-tag">About Me</span>
             <h2 className="section-title">Bridging Technology & Economics</h2>
           </div>
           <div className="about-grid">
@@ -99,7 +99,7 @@ function App() {
       <section id="education" className="section section-gray">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">02. Education</span>
+            <span className="section-tag">Education</span>
             <h2 className="section-title">Academic Background</h2>
           </div>
           <div className="timeline">
@@ -137,7 +137,7 @@ function App() {
                   <h3>CFC in Computer Science</h3>
                   <span className="timeline-date">2015 – 2017</span>
                 </div>
-                <p className="timeline-subtitle">CPNV</p>
+                <p className="timeline-subtitle">CPNV · 5.3/6</p>
               </div>
             </div>
             <div className="timeline-item">
@@ -145,9 +145,9 @@ function App() {
               <div className="timeline-content">
                 <div className="timeline-header">
                   <h3>EPFL — Swiss Federal Institute of Technology</h3>
-                  <span className="timeline-date">2017 – 2018</span>
+                  <span className="timeline-date">2012 – 2015</span>
                 </div>
-                <p className="timeline-subtitle">Mathematics Section · Propédeutique obtained</p>
+                <p className="timeline-subtitle">Microtechnique · Propédeutique 4.41/6 · Échec définitif au Bachelor</p>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ function App() {
       <section id="experience" className="section section-white">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">03. Experience</span>
+            <span className="section-tag">Experience</span>
             <h2 className="section-title">Professional Journey</h2>
           </div>
           <div className="experience-card">
@@ -178,6 +178,43 @@ function App() {
               <li>Technical leadership: stimulating collaboration and reconciling interests within the team</li>
             </ul>
           </div>
+          
+          <div className="exp-divider">Student Jobs</div>
+          
+          <div className="student-jobs">
+            <div className="student-job">
+              <div className="student-job-header">
+                <div>
+                  <h4>Manutentionnaire</h4>
+                  <p>Galexis SA · Écublens, Vaud</p>
+                </div>
+                <span className="student-job-date">2014 – 2017</span>
+              </div>
+              <p>Travail étudiant effectué en parallèle de mes études. Soutien logistique et participation aux opérations de distribution pharmaceutique.</p>
+            </div>
+            
+            <div className="student-job">
+              <div className="student-job-header">
+                <div>
+                  <h4>Chauffeur Uber Pop</h4>
+                  <p>Uber · Freelance</p>
+                </div>
+                <span className="student-job-date">2016 – 2017</span>
+              </div>
+              <p>Job étudiant en parallèle de mes études.</p>
+            </div>
+            
+            <div className="student-job">
+              <div className="student-job-header">
+                <div>
+                  <h4>Opérateur de centre d'appels</h4>
+                  <p>GFK · Lausanne</p>
+                </div>
+                <span className="student-job-date">2011 – 2012</span>
+              </div>
+              <p>Job étudiant.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -185,7 +222,7 @@ function App() {
       <section id="skills" className="section section-gray">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">04. Skills</span>
+            <span className="section-tag">Skills</span>
             <h2 className="section-title">Competencies</h2>
           </div>
           <div className="skills-grid">
@@ -274,7 +311,7 @@ function App() {
       <section id="hobbies" className="section section-white">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">05. Beyond Work</span>
+            <span className="section-tag">Beyond Work</span>
             <h2 className="section-title">Hobbies & Interests</h2>
           </div>
           <div className="hobbies-grid">
@@ -312,7 +349,7 @@ function App() {
       <section id="contact" className="section section-dark">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag section-tag-light">06. Get in Touch</span>
+            <span className="section-tag section-tag-light">Get in Touch</span>
             <h2 className="section-title section-title-light">Let&apos;s Connect</h2>
           </div>
           <div className="contact-grid">
@@ -323,10 +360,7 @@ function App() {
                   <span className="contact-icon">📍</span>
                   <span>Lausanne, Switzerland</span>
                 </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📱</span>
-                  <a href="tel:+41786159290">+41 78 615 92 90</a>
-                </div>
+                
                 <div className="contact-item">
                   <span className="contact-icon">✉️</span>
                   <a href="mailto:jorge.paulapinheiro@gmail.com">jorge.paulapinheiro@gmail.com</a>
