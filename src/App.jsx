@@ -36,10 +36,10 @@ function App() {
       {/* Hero */}
       <section className="hero">
         <div className="hero-content">
-          <p className="hero-greeting">Hello, I'm</p>
+          <p className="hero-greeting">Hello, I&apos;m</p>
           <h1 className="hero-name">JORGE PAULA PINHEIRO</h1>
           <p className="hero-title">
-            <span className="typing">Economics Student · Data Analyst · IT Professional</span>
+            <span className="typing">Economics Student · IT Professional · Data-Driven Opportunities</span>
           </p>
           <p className="hero-location">📍 Lausanne, Switzerland · 🎓 Bachelor in Economics · 🇨🇳 Learning Mandarin</p>
           <div className="hero-buttons">
@@ -63,7 +63,7 @@ function App() {
             <div className="about-text">
               <p>
                 Economics student with solid professional experience in information technology, 
-                currently completing my bachelor's degree while engaged in an intensive language 
+                currently completing my bachelor&apos;s degree while engaged in an intensive language 
                 program abroad alongside my studies.
               </p>
               <p>
@@ -303,11 +303,11 @@ function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag section-tag-light">06. Get in Touch</span>
-            <h2 className="section-title section-title-light">Let's Connect</h2>
+            <h2 className="section-title section-title-light">Let&apos;s Connect</h2>
           </div>
           <div className="contact-grid">
             <div className="contact-info">
-              <p className="contact-intro">I'm currently looking for opportunities in economic analysis, financial analysis, and data roles. Open to internships and entry-level positions starting August 2026.</p>
+              <p className="contact-intro">I&apos;m currently looking for opportunities at the intersection of economics and technology — data-driven roles where I can leverage both my IT experience and economic training. Open to internships and entry-level positions starting August 2026.</p>
               <div className="contact-items">
                 <div className="contact-item">
                   <span className="contact-icon">📍</span>
@@ -328,18 +328,6 @@ function App() {
             <p>© 2026 Jorge Paula Pinheiro · Built with React</p>
           </footer>
         </div>
-      </section>
-    </div>
-  )
-}
-
-export default App
-   </div>
-  )
-}
-
-export default App
-    </div>
       </section>
     </div>
   )
