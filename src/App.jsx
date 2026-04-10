@@ -140,6 +140,16 @@ function App() {
                 <p className="timeline-subtitle">CPNV</p>
               </div>
             </div>
+            <div className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>EPFL — Swiss Federal Institute of Technology</h3>
+                  <span className="timeline-date">2017 – 2018</span>
+                </div>
+                <p className="timeline-subtitle">Mathematics Section · Propédeutique obtained</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
