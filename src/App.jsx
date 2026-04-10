@@ -147,7 +147,7 @@ function App() {
                   <h3>EPFL — Swiss Federal Institute of Technology</h3>
                   <span className="timeline-date">2012 – 2015</span>
                 </div>
-                <p className="timeline-subtitle">Microtechnique · Propédeutique 4.41/6 · Échec définitif au Bachelor</p>
+                <p className="timeline-subtitle">Microtechnology · Propédeutique 4.41/6 · Bachelor not completed</p>
               </div>
             </div>
           </div>
@@ -185,34 +185,34 @@ function App() {
             <div className="student-job">
               <div className="student-job-header">
                 <div>
-                  <h4>Manutentionnaire</h4>
+                  <h4>Warehouse Worker</h4>
                   <p>Galexis SA · Écublens, Vaud</p>
                 </div>
                 <span className="student-job-date">2014 – 2017</span>
               </div>
-              <p>Travail étudiant effectué en parallèle de mes études. Soutien logistique et participation aux opérations de distribution pharmaceutique.</p>
+              <p>Student job alongside my studies. Logistics support and participation in pharmaceutical distribution operations.</p>
             </div>
             
             <div className="student-job">
               <div className="student-job-header">
                 <div>
-                  <h4>Chauffeur Uber Pop</h4>
+                  <h4>Uber Pop Driver</h4>
                   <p>Uber · Freelance</p>
                 </div>
                 <span className="student-job-date">2016 – 2017</span>
               </div>
-              <p>Job étudiant en parallèle de mes études.</p>
+              <p>Student job alongside my studies.</p>
             </div>
             
             <div className="student-job">
               <div className="student-job-header">
                 <div>
-                  <h4>Opérateur de centre d'appels</h4>
+                  <h4>Call Center Operator</h4>
                   <p>GFK · Lausanne</p>
                 </div>
                 <span className="student-job-date">2011 – 2012</span>
               </div>
-              <p>Job étudiant.</p>
+              <p>Student job.</p>
             </div>
           </div>
         </div>
