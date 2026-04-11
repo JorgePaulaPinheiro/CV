@@ -117,7 +117,7 @@ const translations = {
       },
       econometrics: {
         title: '📈 Econometrics',
-        tags: ['Multivariate Analysis', 'Time Series', 'Fixed Effects Models', 'Hypothesis Testing']
+        tags: ['Multivariate Analysis', 'Time Series', 'Fixed Effects Models', 'Robustness Analysis']
       },
       it: {
         title: '🖥️ IT Infrastructure',
@@ -298,7 +298,7 @@ const translations = {
       },
       econometrics: {
         title: '📈 Économétrie',
-        tags: ['Analyse Multivariée', 'Séries Temporelles', 'Modèles à Effets Fixes', 'Tests d\'Hypothèses']
+        tags: ['Analyse Multivariée', 'Séries Temporelles', 'Modèles à Effets Fixes', 'Analyse de Robustesse']
       },
       it: {
         title: '🖥️ Infrastructure IT',
