@@ -391,6 +391,42 @@ body {
   line-height: 1.6;
 }
 
+.thesis-title {
+  font-weight: 600;
+  color: var(--black) !important;
+  margin-bottom: 4px !important;
+}
+
+.thesis-subject {
+  font-style: italic;
+  margin-bottom: 12px !important;
+  color: var(--primary) !important;
+}
+
+.thesis-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.thesis-item {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.thesis-label {
+  font-weight: 600;
+  color: var(--black);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.thesis-item span:last-child {
+  color: var(--gray);
+}
+
 /* Experience Card */
 .experience-card {
   background: white;

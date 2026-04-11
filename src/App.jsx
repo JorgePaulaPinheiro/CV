@@ -116,7 +116,28 @@ function App() {
                 </ul>
                 <div className="thesis-box">
                   <strong>Bachelor Thesis</strong>
-                  <p>Stabilizing effect of macroprudential measures and capital controls against international financial shocks — Panel data (IMF, BIS), regressions in R, analysis of shock transmissions on real estate markets.</p>
+                  <p className="thesis-title">Global Determinants of Real Estate Prices: A Multi-Country Panel Analysis</p>
+                  <p className="thesis-subject">
+                    <em>Impact of financial cycles on real estate markets — transmission of international financial shocks</em>
+                  </p>
+                  <div className="thesis-details">
+                    <div className="thesis-item">
+                      <span className="thesis-label">Methodology:</span>
+                      <span>Multivariate linear regressions (OLS) + Linear projections on panel data</span>
+                    </div>
+                    <div className="thesis-item">
+                      <span className="thesis-label">Data Sources:</span>
+                      <span>IMF, BIS — international macroeconomic datasets</span>
+                    </div>
+                    <div className="thesis-item">
+                      <span className="thesis-label">Tools:</span>
+                      <span>R (tidyverse: dplyr, tidyr)</span>
+                    </div>
+                    <div className="thesis-item">
+                      <span className="thesis-label">Focus:</span>
+                      <span>Stabilizing effect of macroprudential measures and capital controls against international financial shocks</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
