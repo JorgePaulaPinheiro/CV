@@ -83,19 +83,59 @@ body {
   color: var(--primary);
 }
 
-.lang-toggle {
-  background: var(--primary);
-  color: var(--white) !important;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 13px !important;
-  font-weight: 600;
-  transition: all 0.2s ease;
+.lang-selector {
+  display: flex;
+  align-items: center;
 }
 
-.lang-toggle:hover {
-  background: var(--primary-dark);
-  transform: scale(1.05);
+.lang-options {
+  display: flex;
+  align-items: center;
+  background: var(--light-gray);
+  border-radius: 24px;
+  padding: 4px;
+  gap: 2px;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.lang-btn:hover {
+  background: rgba(139, 21, 56, 0.1);
+  color: var(--primary);
+}
+
+.lang-btn.active {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(139, 21, 56, 0.3);
+}
+
+.lang-flag {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.lang-label {
+  font-weight: 600;
+}
+
+.lang-divider {
+  color: var(--gray);
+  opacity: 0.4;
+  font-size: 12px;
 }
 
 /* Hero Section */
@@ -764,12 +804,25 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .nav-links li:not(.lang-toggle) {
+  .nav-links li:not(.lang-selector) {
     display: none;
   }
   
   .nav-links {
     gap: 10px;
+  }
+  
+  .lang-options {
+    padding: 3px;
+  }
+  
+  .lang-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .lang-flag {
+    font-size: 14px;
   }
   
   .hero-name {

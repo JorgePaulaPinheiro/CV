@@ -381,8 +381,8 @@ function App() {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
   }
 
-  const toggleLang = () => {
-    setLang(lang === 'en' ? 'fr' : 'en')
+  const setLanguage = (newLang) => {
+    setLang(newLang)
   }
 
   return (
@@ -398,8 +398,26 @@ function App() {
             <li onClick={() => scrollTo('skills')}>{t.nav.skills}</li>
             <li onClick={() => scrollTo('hobbies')}>{t.nav.hobbies}</li>
             <li onClick={() => scrollTo('contact')}>{t.nav.contact}</li>
-            <li className="lang-toggle" onClick={toggleLang}>
-              {lang === 'en' ? '🇫🇷 FR' : '🇬🇧 EN'}
+            <li className="lang-selector">
+              <div className="lang-options">
+                <button 
+                  className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
+                  onClick={() => setLanguage('en')}
+                  title="English"
+                >
+                  <span className="lang-flag">🇬🇧</span>
+                  <span className="lang-label">EN</span>
+                </button>
+                <span className="lang-divider">/</span>
+                <button 
+                  className={`lang-btn ${lang === 'fr' ? 'active' : ''}`}
+                  onClick={() => setLanguage('fr')}
+                  title="Français"
+                >
+                  <span className="lang-flag">🇫🇷</span>
+                  <span className="lang-label">FR</span>
+                </button>
+              </div>
             </li>
           </ul>
         </div>
