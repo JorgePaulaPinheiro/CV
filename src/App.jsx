@@ -21,7 +21,7 @@ function App() {
       {/* Navigation */}
       <nav className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>
         <div className="nav-container">
-          <div className="nav-logo">JPP</div>
+          <div className="nav-logo">JORGE</div>
           <ul className="nav-links">
             <li onClick={() => scrollTo('about')}>About</li>
             <li onClick={() => scrollTo('education')}>Education</li>
@@ -37,7 +37,7 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <p className="hero-greeting">Hello, I&apos;m</p>
-          <h1 className="hero-name">JORGE PAULA PINHEIRO</h1>
+          <h1 className="hero-name">JORGE<br/>PAULA PINHEIRO</h1>
           <p className="hero-title">
             <span className="typing">Economics Student · IT Professional · Data-Driven Opportunities</span>
           </p>
