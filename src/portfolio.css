@@ -100,16 +100,16 @@ body {
 .lang-btn {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border: none;
   background: transparent;
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--gray);
+  letter-spacing: 0.5px;
 }
 
 .lang-btn:hover {
@@ -121,11 +121,6 @@ body {
   background: var(--primary);
   color: white;
   box-shadow: 0 2px 8px rgba(139, 21, 56, 0.3);
-}
-
-.lang-flag {
-  font-size: 16px;
-  line-height: 1;
 }
 
 .lang-label {
@@ -817,12 +812,8 @@ body {
   }
   
   .lang-btn {
-    padding: 5px 10px;
+    padding: 5px 12px;
     font-size: 12px;
-  }
-  
-  .lang-flag {
-    font-size: 14px;
   }
   
   .hero-name {

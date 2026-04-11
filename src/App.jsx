@@ -403,18 +403,14 @@ function App() {
                 <button 
                   className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
                   onClick={() => setLanguage('en')}
-                  title="English"
                 >
-                  <span className="lang-flag">🇬🇧</span>
                   <span className="lang-label">EN</span>
                 </button>
                 <span className="lang-divider">/</span>
                 <button 
                   className={`lang-btn ${lang === 'fr' ? 'active' : ''}`}
                   onClick={() => setLanguage('fr')}
-                  title="Français"
                 >
-                  <span className="lang-flag">🇫🇷</span>
                   <span className="lang-label">FR</span>
                 </button>
               </div>
