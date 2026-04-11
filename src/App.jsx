@@ -119,6 +119,10 @@ const translations = {
         title: '📈 Econometrics',
         tags: ['Multivariate Analysis', 'Time Series', 'Fixed Effects Models', 'Heteroskedasticity', 'Hypothesis Testing']
       },
+      it: {
+        title: '🖥️ IT Infrastructure',
+        tags: ['Asset Management', 'Large-Scale Deployment (10K+)', 'Technical Documentation', 'Incident Management', 'Helpdesk L1/L2', 'Hardware Troubleshooting', 'System Administration', 'Security Basics', 'Process Standardization', 'Team Leadership']
+      },
       finance: {
         title: '💰 Finance',
         tags: ['Financial Analysis', 'DCF Models', 'Comparables']
@@ -190,7 +194,7 @@ const translations = {
     },
     hero: {
       greeting: "Bonjour, je suis",
-      title: 'Étudiant en Économie · Informaticien · Opportunités Data',
+      title: 'Étudiant en Économie · 8 ans Exp. IT · Recherche Stage/Alternance Data',
       location: '📍 Lausanne, Suisse · 🎓 Bachelor en Économie · 🇨🇳 Apprentissage du Mandarin',
       ctaPrimary: 'Me contacter',
       ctaSecondary: 'En savoir plus'
@@ -295,6 +299,10 @@ const translations = {
       econometrics: {
         title: '📈 Économétrie',
         tags: ['Analyse Multivariée', 'Séries Temporelles', 'Modèles à Effets Fixes', 'Hétéroscédasticité', 'Tests d\'Hypothèses']
+      },
+      it: {
+        title: '🖥️ Infrastructure IT',
+        tags: ['Gestion de Parc', 'Déploiement Large Échelle (10K+)', 'Documentation Technique', 'Gestion des Incidents', 'Support Niveau 1/2', 'Dépannage Hardware', 'Administration Système', 'Bases de Sécurité', 'Standardisation des Processus', 'Leadership Technique']
       },
       finance: {
         title: '💰 Finance',
@@ -620,6 +628,14 @@ function App() {
               <h4>{t.skills.econometrics.title}</h4>
               <div className="skill-tags">
                 {t.skills.econometrics.tags.map((tag, idx) => (
+                  <span key={idx} className="skill-tag">{tag}</span>
+                ))}
+              </div>
+            </div>
+            <div className="skill-category">
+              <h4>{t.skills.it.title}</h4>
+              <div className="skill-tags">
+                {t.skills.it.tags.map((tag, idx) => (
                   <span key={idx} className="skill-tag">{tag}</span>
                 ))}
               </div>
