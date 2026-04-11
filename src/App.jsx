@@ -72,6 +72,12 @@ function App() {
                 infrastructure experience with rigorous quantitative training in econometrics, 
                 macroeconomics, and financial modeling.
               </p>
+              <p>
+                Currently based in China as a <strong>CSC Scholarship recipient</strong>, I have developed 
+                strong cross-cultural adaptability through full immersion in an international academic 
+                environment. Trilingual with native fluency in French and Portuguese, fluent in English, 
+                and rapidly advancing in Mandarin — I bring a genuinely global perspective to analytical work.
+              </p>
             </div>
             <div className="about-highlights">
               <div className="highlight-card">
@@ -148,7 +154,13 @@ function App() {
                   <h3>Chinese Language Program — CSC Scholar</h3>
                   <span className="timeline-date">2025 – Present</span>
                 </div>
-                <p className="timeline-subtitle">Sichuan University · Intensive program, Mandarin immersion</p>
+                <p className="timeline-subtitle">Sichuan University · Chengdu, China · Full Mandarin Immersion</p>
+                <ul className="timeline-list">
+                  <li><strong>CSC Scholarship recipient</strong> — competitive Chinese government grant (CSC/ bilateral program)</li>
+                  <li>Intensive language program (25+ hours/week) — <strong>HSK3 294/300</strong> (Intermediate level) after 6 months</li>
+                  <li>Complete immersion: coursework, daily life, and interactions 100% in Mandarin</li>
+                  <li>Developed strong cross-cultural adaptability through direct integration into Chinese academic and social environments</li>
+                </ul>
               </div>
             </div>
             <div className="timeline-item">
@@ -293,6 +305,8 @@ function App() {
               <div className="skill-tags">
                 <span className="skill-tag">Rigorous</span>
                 <span className="skill-tag">Synthesis</span>
+                <span className="skill-tag">Cross-cultural Adaptability</span>
+                <span className="skill-tag">International Mobility</span>
                 <span className="skill-tag">Documentation</span>
                 <span className="skill-tag">Collaboration</span>
               </div>
