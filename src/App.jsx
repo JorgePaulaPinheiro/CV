@@ -64,7 +64,8 @@ const translations = {
       cfc: {
         title: 'CFC in Computer Science',
         date: '2015 – 2017',
-        subtitle: 'CPNV · 5.3/6'
+        subtitle: 'CPNV · 5.3/6',
+        desc: "Comprehensive generalist training: development (C#, Python), databases (SQL), networking, systems (Windows/Linux), cybersecurity, project management"
       },
       epfl: {
         title: 'EPFL — Swiss Federal Institute of Technology',
@@ -244,7 +245,8 @@ const translations = {
       cfc: {
         title: 'CFC en Informatique',
         date: '2015 – 2017',
-        subtitle: 'CPNV · 5.3/6'
+        subtitle: 'CPNV · 5.3/6',
+        desc: "Formation généraliste complète : développement (C#, Python), bases de données (SQL), réseaux, systèmes (Windows/Linux), cybersécurité, gestion de projet"
       },
       epfl: {
         title: 'EPFL — École polytechnique fédérale de Lausanne',
@@ -543,6 +545,7 @@ function App() {
                   <span className="timeline-date">{t.education.cfc.date}</span>
                 </div>
                 <p className="timeline-subtitle">{t.education.cfc.subtitle}</p>
+                <p className="timeline-desc">{t.education.cfc.desc}</p>
               </div>
             </div>
             <div className="timeline-item">
