@@ -21,7 +21,7 @@ function App() {
       {/* Navigation */}
       <nav className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>
         <div className="nav-container">
-          <div className="nav-logo">JORGE</div>
+          <div className="nav-logo">J. PAULA PINHEIRO</div>
           <ul className="nav-links">
             <li onClick={() => scrollTo('about')}>About</li>
             <li onClick={() => scrollTo('education')}>Education</li>
@@ -335,7 +335,7 @@ function App() {
               <div className="language-item">
                 <span className="lang-flag">🇨🇳</span>
                 <span className="lang-name">Chinese</span>
-                <span className="lang-level">Intermediate — Preparing HSK5 (June 2026)</span>
+                <span className="lang-level">Intermediate</span>
               </div>
             </div>
           </div>
