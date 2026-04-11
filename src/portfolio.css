@@ -83,6 +83,21 @@ body {
   color: var(--primary);
 }
 
+.lang-toggle {
+  background: var(--primary);
+  color: var(--white) !important;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px !important;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.lang-toggle:hover {
+  background: var(--primary-dark);
+  transform: scale(1.05);
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -749,8 +764,12 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .nav-links {
+  .nav-links li:not(.lang-toggle) {
     display: none;
+  }
+  
+  .nav-links {
+    gap: 10px;
   }
   
   .hero-name {
