@@ -13,7 +13,7 @@ const translations = {
     },
     hero: {
       greeting: "Hello, I'm",
-      title: 'Economics Student · IT Professional · Data-Driven Opportunities',
+      title: 'Economics · Data · IT — Available August 2026',
       location: '📍 Lausanne, Switzerland · 🎓 Bachelor in Economics · 🇨🇳 Learning Mandarin',
       ctaPrimary: 'Get in Touch',
       ctaSecondary: 'Learn More'
@@ -195,7 +195,7 @@ const translations = {
     },
     hero: {
       greeting: "Bonjour, je suis",
-      title: 'Étudiant en Économie · 8 ans Exp. IT · Recherche Stage/Alternance Data',
+      title: 'Économie · Data · IT — Disponible août 2026',
       location: '📍 Lausanne, Suisse · 🎓 Bachelor en Économie · 🇨🇳 Apprentissage du Mandarin',
       ctaPrimary: 'Me contacter',
       ctaSecondary: 'En savoir plus'
