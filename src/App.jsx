@@ -84,8 +84,7 @@ const translations = {
           'Interventions on non-standard and specialized systems requiring analysis and adaptation',
           'Technical support to users: diagnosis, resolution and incident documentation',
           'Writing and standardization of technical procedures for the team',
-          'Methodical work under pressure respecting priorities and deadlines',
-          'Technical leadership: stimulating collaboration and reconciling interests within the team'
+          'Methodical work under pressure respecting priorities and deadlines'
         ]
       },
       studentJobsTitle: 'Student Jobs',
@@ -121,7 +120,7 @@ const translations = {
       },
       it: {
         title: '🖥️ IT Infrastructure',
-        tags: ['Asset Management', 'Large-Scale Deployment (10K+)', 'Technical Documentation', 'Incident Management', 'Helpdesk L1/L2', 'Hardware Troubleshooting', 'System Administration', 'Security Basics', 'Process Standardization', 'Team Leadership']
+        tags: ['Asset Management (10K+ devices)', 'Large-Scale Deployment', 'System Administration', 'Incident Management', 'Helpdesk L2']
       },
       finance: {
         title: '💰 Finance',
@@ -265,8 +264,7 @@ const translations = {
           "Interventions sur des systèmes non standards et spécialisés nécessitant analyse et adaptation",
           "Support technique aux utilisateurs : diagnostic, résolution et documentation des incidents",
           "Rédaction et standardisation des procédures techniques pour l'équipe",
-          "Travail méthodique sous pression en respectant priorités et délais",
-          "Leadership technique : stimulation de la collaboration et conciliation des intérêts au sein de l'équipe"
+          "Travail méthodique sous pression en respectant priorités et délais"
         ]
       },
       studentJobsTitle: 'Jobs Étudiants',
@@ -302,7 +300,7 @@ const translations = {
       },
       it: {
         title: '🖥️ Infrastructure IT',
-        tags: ['Gestion de Parc', 'Déploiement Large Échelle (10K+)', 'Documentation Technique', 'Gestion des Incidents', 'Support Niveau 1/2', 'Dépannage Hardware', 'Administration Système', 'Bases de Sécurité', 'Standardisation des Processus', 'Leadership Technique']
+        tags: ['Gestion de Parc (10K+ postes)', 'Déploiement Large Échelle', 'Administration Système', 'Gestion des Incidents', 'Support Niveau 2']
       },
       finance: {
         title: '💰 Finance',
