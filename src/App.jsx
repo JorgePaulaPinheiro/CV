@@ -155,7 +155,7 @@ const translations = {
       title: 'Hobbies & Interests',
       music: {
         title: 'Music Production',
-        desc: 'Cyber Metal / Industrial Metal artist',
+        desc: 'Cyber Metal / Industrial Metal artist — 3 self-produced albums, solo composition & recording, 2-3 occasional collaborations',
         link: 'Listen on Spotify →'
       },
       gaming: {
@@ -335,7 +335,7 @@ const translations = {
       title: 'Loisirs & Intérêts',
       music: {
         title: 'Production Musicale',
-        desc: 'Artiste Cyber Metal / Metal Industriel',
+        desc: "Artiste Cyber Metal / Metal Industriel — 3 albums auto-produits, composition et enregistrement en solo, 2-3 collaborations ponctuelles",
         link: 'Écouter sur Spotify →'
       },
       gaming: {
