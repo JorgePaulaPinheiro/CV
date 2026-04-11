@@ -70,7 +70,8 @@ const translations = {
       epfl: {
         title: 'EPFL — Swiss Federal Institute of Technology',
         date: '2012 – 2015',
-        subtitle: 'Microtechnology · Propédeutique 4.41/6 · Bachelor not completed'
+        subtitle: 'Microtechnology · Propédeutique 4.41/6 · Bachelor not completed',
+        desc: "Initial engineering training: programming (C), mathematics, physics, statistics — solid analytical foundation before career pivot"
       }
     },
     experience: {
@@ -251,7 +252,8 @@ const translations = {
       epfl: {
         title: 'EPFL — École polytechnique fédérale de Lausanne',
         date: '2012 – 2015',
-        subtitle: 'Microtechnique · Propédeutique 4.41/6 · Bachelor non terminé'
+        subtitle: 'Microtechnique · Propédeutique 4.41/6 · Bachelor non terminé',
+        desc: "Formation initiale en ingénierie : programmation (C), mathématiques, physique, statistiques — base analytique solide avant réorientation"
       }
     },
     experience: {
@@ -556,6 +558,7 @@ function App() {
                   <span className="timeline-date">{t.education.epfl.date}</span>
                 </div>
                 <p className="timeline-subtitle">{t.education.epfl.subtitle}</p>
+                <p className="timeline-desc">{t.education.epfl.desc}</p>
               </div>
             </div>
           </div>
