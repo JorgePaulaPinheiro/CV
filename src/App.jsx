@@ -23,7 +23,7 @@ const translations = {
       title: 'Bridging Technology & Economics',
       p1: "Economics student with solid professional experience in information technology, currently completing my bachelor's degree while engaged in an intensive language program abroad alongside my studies.",
       p2: 'I aim to pivot my career toward economic and financial analysis, leveraging both my technical skills and academic training. My background combines 8 years of IT infrastructure experience with rigorous quantitative training in econometrics, macroeconomics, and financial modeling.',
-      p3: 'Currently based in China as a CSC Scholarship recipient, I have developed strong cross-cultural adaptability through full immersion in an international academic environment. Trilingual with native fluency in French and Portuguese, fluent in English, and rapidly advancing in Mandarin — I bring a genuinely global perspective to analytical work.',
+      p3: 'Currently based in China as a CSC Scholarship recipient, I have developed practical cross-cultural skills through daily immersion in an international academic environment. Trilingual in French and Portuguese, fluent in English, and learning Mandarin — I am comfortable working across different cultural and professional contexts.',
       stats: {
         years: 'Years IT Experience',
         gpa: 'GPA / 6',
@@ -117,7 +117,7 @@ const translations = {
       },
       econometrics: {
         title: '📈 Econometrics',
-        tags: ['Multivariate Analysis', 'Time Series', 'Fixed Effects Models', 'Heteroskedasticity', 'Hypothesis Testing']
+        tags: ['Multivariate Analysis', 'Time Series', 'Fixed Effects Models', 'Hypothesis Testing']
       },
       it: {
         title: '🖥️ IT Infrastructure',
@@ -204,7 +204,7 @@ const translations = {
       title: 'Allier Technologie & Économie',
       p1: "Étudiant en économie avec une solide expérience professionnelle en informatique, actuellement en fin de bachelor tout en suivant un programme intensif de langue à l'étranger en parallèle de mes études.",
       p2: "Je vise à réorienter ma carrière vers l'analyse économique et financière, en m'appuyant à la fois sur mes compétences techniques et ma formation académique. Mon parcours combine 8 ans d'expérience en infrastructure IT avec une formation quantitative rigoureuse en économétrie, macroéconomie et modélisation financière.",
-      p3: "Actuellement basé en Chine en tant que boursier CSC, j'ai développé une forte capacité d'adaptation interculturelle grâce à une immersion complète dans un environnement académique international. Trilingue avec une maîtrise native du français et du portugais, courant en anglais et progressant rapidement en mandarin — j'apporte une perspective véritablement globale au travail analytique.",
+      p3: "Actuellement basé en Chine en tant que boursier CSC, j'ai développé des compétences interculturelles concrètes à travers l'immersion quotidienne dans un environnement académique international. Trilingue en français et portugais, courant en anglais et en apprentissage du mandarin — je suis à l'aise pour travailler dans des contextes culturels et professionnels variés.",
       stats: {
         years: "Années d'exp. IT",
         gpa: 'GPA / 6',
@@ -298,7 +298,7 @@ const translations = {
       },
       econometrics: {
         title: '📈 Économétrie',
-        tags: ['Analyse Multivariée', 'Séries Temporelles', 'Modèles à Effets Fixes', 'Hétéroscédasticité', 'Tests d\'Hypothèses']
+        tags: ['Analyse Multivariée', 'Séries Temporelles', 'Modèles à Effets Fixes', 'Tests d\'Hypothèses']
       },
       it: {
         title: '🖥️ Infrastructure IT',
