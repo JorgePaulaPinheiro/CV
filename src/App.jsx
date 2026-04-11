@@ -26,7 +26,7 @@ const translations = {
       p3: 'Currently based in China as a CSC Scholarship recipient, I have developed practical cross-cultural skills through daily immersion in an international academic environment. Trilingual in French and Portuguese, fluent in English, and learning Mandarin — I am comfortable working across different cultural and professional contexts.',
       stats: {
         years: 'Years IT Experience',
-        gpa: 'GPA / 6',
+        gpa: 'Grade / 6',
         languages: 'Languages',
         ects: 'ECTS Earned'
       }
@@ -37,7 +37,7 @@ const translations = {
       bachelor: {
         title: 'Bachelor in Economics and Management',
         date: '2023 – Present',
-        subtitle: 'UniDistance Switzerland · 152/180 ECTS · GPA 5.66/6',
+        subtitle: 'UniDistance Switzerland · 152/180 ECTS · 5.66/6',
         courses: 'Macroeconomics, Money and Finance, Econometrics, Business Management, Accounting',
         thesisTitle: 'Bachelor Thesis',
         thesis: 'Global Determinants of Real Estate Prices: A Multi-Country Panel Analysis',
@@ -56,7 +56,7 @@ const translations = {
         date: '2025 – Present',
         subtitle: 'Sichuan University · Chengdu, China · Full Mandarin Immersion',
         csc: 'CSC Scholarship recipient — competitive Chinese government grant (CSC/ bilateral program)',
-        gpa: 'GPA 4.0/4.0',
+        gpa: 'Grade 4.0/4.0',
         gpaDesc: 'on all semester assessments',
         immersion: 'Complete immersion: coursework, daily life, and interactions 100% in Mandarin',
         adaptability: 'Developed strong cross-cultural adaptability through direct integration into Chinese academic and social environments'
@@ -208,7 +208,7 @@ const translations = {
       p3: "Actuellement basé en Chine en tant que boursier CSC, j'ai développé des compétences interculturelles concrètes à travers l'immersion quotidienne dans un environnement académique international. Trilingue en français et portugais, courant en anglais et en apprentissage du mandarin — je suis à l'aise pour travailler dans des contextes culturels et professionnels variés.",
       stats: {
         years: "Années d'exp. IT",
-        gpa: 'GPA / 6',
+        gpa: 'Note / 6',
         languages: 'Langues',
         ects: 'ECTS Acquis'
       }
@@ -219,7 +219,7 @@ const translations = {
       bachelor: {
         title: 'Bachelor en Économie et Gestion',
         date: '2023 – Présent',
-        subtitle: 'UniDistance Suisse · 152/180 ECTS · GPA 5.66/6',
+        subtitle: 'UniDistance Suisse · 152/180 ECTS · 5.66/6',
         courses: 'Macroéconomie, Monnaie et Finance, Économétrie, Gestion d\'entreprise, Comptabilité',
         thesisTitle: 'Mémoire de Bachelor',
         thesis: 'Déterminants globaux des prix immobiliers : Une analyse de panel multi-pays',
@@ -238,7 +238,7 @@ const translations = {
         date: '2025 – Présent',
         subtitle: 'Université du Sichuan · Chengdu, Chine · Immersion complète en mandarin',
         csc: 'Boursier CSC — bourse gouvernementale chinoise compétitive (programme CSC/bilatéral)',
-        gpa: 'GPA 4.0/4.0',
+        gpa: 'Note 4.0/4.0',
         gpaDesc: 'à tous les semestres',
         immersion: 'Immersion totale : cours, vie quotidienne et interactions 100% en mandarin',
         adaptability: "Développement d'une forte capacité d'adaptation interculturelle par intégration directe dans les environnements académiques et sociaux chinois"
