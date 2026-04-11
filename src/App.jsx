@@ -157,7 +157,7 @@ function App() {
                 <p className="timeline-subtitle">Sichuan University · Chengdu, China · Full Mandarin Immersion</p>
                 <ul className="timeline-list">
                   <li><strong>CSC Scholarship recipient</strong> — competitive Chinese government grant (CSC/ bilateral program)</li>
-                  <li>Intensive language program (25+ hours/week) — <strong>HSK3 294/300</strong> (Intermediate level) after 6 months</li>
+                  <li>Intensive language program (25+ hours/week) — <strong>GPA 4.0/4.0</strong> on all semester assessments</li>
                   <li>Complete immersion: coursework, daily life, and interactions 100% in Mandarin</li>
                   <li>Developed strong cross-cultural adaptability through direct integration into Chinese academic and social environments</li>
                 </ul>
@@ -335,7 +335,7 @@ function App() {
               <div className="language-item">
                 <span className="lang-flag">🇨🇳</span>
                 <span className="lang-name">Chinese</span>
-                <span className="lang-level">Intermediate (HSK3 294/300)</span>
+                <span className="lang-level">Intermediate — Preparing HSK5 (June 2026)</span>
               </div>
             </div>
           </div>
