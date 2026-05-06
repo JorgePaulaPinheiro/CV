@@ -217,7 +217,7 @@ const translations = {
       tag: 'Formation',
       title: 'Parcours Académique',
       bachelor: {
-        title: 'Bachelor en Économie et Gestion',
+        title: 'Bachelor en Économie et Management',
         date: '2023 – Présent',
         subtitle: 'UniDistance Suisse · 152/180 ECTS · 5.66/6',
         courses: 'Macroéconomie, Monnaie et Finance, Économétrie, Gestion d\'entreprise, Comptabilité',
@@ -365,6 +365,188 @@ const translations = {
       intro: "Je recherche activement des opportunités à l'intersection de l'économie et de la technologie — des rôles orientés data où je peux valoriser mon expérience IT et ma formation économique. Ouvert aux stages et postes junior à partir d'août 2026.",
       footer: '© 2026 Jorge Paula Pinheiro · Construit avec React'
     }
+  },
+  zh: {
+    nav: {
+      about: '关于我',
+      education: '教育',
+      experience: '经历',
+      skills: '技能',
+      hobbies: '爱好',
+      contact: '联系'
+    },
+    hero: {
+      greeting: "你好，我是",
+      title: '经济学 · 数据 · IT — 2026年8月可入职',
+      location: '📍 目前在中国成都 · 常驻瑞士洛桑 · 🎓 经济学学士',
+      ctaPrimary: '联系我',
+      ctaSecondary: '了解更多'
+    },
+    about: {
+      tag: '关于我',
+      title: '技术与经济学的交汇',
+      p1: "我是一名拥有扎实信息技术专业背景的经济学学生，目前正在中国成都完成学士学位，同时参加密集型中文课程。",
+      p2: "我的目标是转向经济与金融领域，充分发挥我的技术能力和学术训练。我的背景融合了8年IT基础设施经验，以及计量经济学、宏观经济学和金融建模方面的严谨定量培训。",
+      p3: "<strong>目前在中国成都</strong>，作为CSC奖学金获得者完成密集型中文课程，以提升国际竞争力和跨文化适应能力，为瑞士-欧洲-亚洲跨境机遇做准备。我的常住地是<strong>瑞士洛桑</strong>。",
+      stats: {
+        years: '年IT经验',
+        gpa: '绩点 / 6',
+        languages: '语言',
+        ects: '已获学分'
+      }
+    },
+    education: {
+      tag: '教育背景',
+      title: '学术经历',
+      bachelor: {
+        title: '经济学与管理学士',
+        date: '2023 – 在读',
+        subtitle: '瑞士远程大学 · 152/180 ECTS · 5.66/6',
+        courses: '宏观经济学、货币与金融、计量经济学、企业管理、会计学',
+        thesisTitle: '学士论文',
+        thesis: '房地产价格的全球决定因素：多国面板分析',
+        thesisSubject: "金融周期对房地产市场的影响——国际金融冲击的传导机制",
+        methodology: '研究方法：',
+        methodologyValue: '多元线性回归（OLS）+ 面板数据线性投影',
+        dataSources: '数据来源：',
+        dataSourcesValue: '国际货币基金组织（IMF）、国际清算银行（BIS）——国际宏观经济数据集',
+        tools: '工具：',
+        toolsValue: 'R语言（tidyverse：dplyr, tidyr）',
+        focus: '研究重点：',
+        focusValue: '宏观审慎措施和资本管制对国际金融冲击的稳定效应'
+      },
+      china: {
+        title: '中文课程 — CSC奖学金获得者',
+        date: '2025 – 在读',
+        subtitle: '四川大学 · 中国成都 · 全中文沉浸式学习',
+        csc: 'CSC奖学金获得者 — 中国政府竞争性奖学金项目',
+        gpa: '成绩 4.0/4.0',
+        gpaDesc: '所有学期评估',
+        immersion: '完全沉浸式学习：课程、日常生活和社交互动100%使用中文',
+        adaptability: '通过直接融入中国学术和社交环境，培养了强大的跨文化适应能力'
+      },
+      cfc: {
+        title: '计算机科学CFC证书',
+        date: '2015 – 2017',
+        subtitle: 'CPNV · 5.3/6',
+        desc: "全面的通识培训：开发（C#、Python）、数据库（SQL）、网络、系统（Windows/Linux）、技术支持"
+      },
+      epfl: {
+        title: '洛桑联邦理工学院（EPFL）',
+        date: '2012 – 2015',
+        subtitle: '微技术 · 预科 4.41/6 · 学士未完成',
+        desc: "工程基础训练：编程（C）、数学、物理、统计学——在职业转型前打下了扎实的分析基础"
+      }
+    },
+    experience: {
+      tag: '职业经历',
+      title: '职业历程',
+      chuv: {
+        title: 'IT技术员',
+        company: 'CHUV — 洛桑大学中心医院',
+        date: '2017 – 2025',
+        items: [
+          "IT设备的安装、维护和故障排除（10,000+ 工作站）",
+          "对非标准和专业系统进行干预，需要分析和适应能力",
+          "为用户提供技术支持：诊断、解决和记录事件",
+          "为团队编写和标准化技术程序",
+          "在压力下按优先级和截止日期进行有条理的工作"
+        ]
+      },
+      studentJobsTitle: '学生兼职',
+      galexis: {
+        title: '仓库工作人员',
+        company: 'Galexis SA · 瑞士沃州埃屈布朗',
+        date: '2014 – 2017',
+        desc: '边学习边工作。提供物流支持并参与药品分销业务。'
+      },
+      uber: {
+        title: 'Uber Pop司机',
+        company: 'Uber · 自由职业',
+        date: '2016 – 2017',
+        desc: '边学习边工作。'
+      },
+      gfk: {
+        title: '呼叫中心接线员',
+        company: 'GFK · 洛桑',
+        date: '2011 – 2012',
+        desc: '学生兼职。'
+      }
+    },
+    skills: {
+      tag: '技能',
+      title: '专业能力',
+      data: {
+        title: '📊 数据与分析',
+        tags: ['R语言', 'SQL', 'Excel', 'Python', '线性回归', '面板数据分析', 'OLS', '统计建模']
+      },
+      econometrics: {
+        title: '📈 计量经济学',
+        tags: ['多元分析', '时间序列', '固定效应模型', '稳健性分析']
+      },
+      it: {
+        title: '🖥️ IT基础设施',
+        tags: ['资产管理（10K+设备）', '大规模部署', '系统管理', '事件管理', '二级技术支持']
+      },
+      finance: {
+        title: '💰 金融',
+        tags: ['财务分析', 'DCF模型', '可比公司分析']
+      },
+      economics: {
+        title: '📉 经济学',
+        tags: ['宏观经济学', '计量经济学', '国际金融']
+      },
+      accounting: {
+        title: '📋 会计',
+        tags: ['财务会计', '管理控制']
+      },
+      programming: {
+        title: '💻 编程',
+        tags: ['PowerShell', 'C#', 'PHP', 'JavaScript']
+      },
+      soft: {
+        title: '🤝 软技能',
+        tags: ['严谨细致', '综合分析', '跨文化适应', '国际流动性', '文档编写', '团队协作']
+      },
+      languages: {
+        title: '🌍 语言',
+        french: { name: '法语', level: '母语' },
+        portuguese: { name: '葡萄牙语', level: '母语' },
+        english: { name: '英语', level: '流利（IELTS 8/9）' },
+        chinese: { name: '中文', level: '中级' }
+      }
+    },
+    hobbies: {
+      tag: '工作之余',
+      title: '爱好与兴趣',
+      music: {
+        title: '音乐制作',
+        desc: '赛博金属/工业金属艺术家 — 3张自主制作专辑，独立作曲与录制，偶有2-3次合作',
+        link: '在Spotify上收听 →'
+      },
+      gaming: {
+        title: '电子游戏',
+        desc: '热爱探索虚拟世界和互动叙事的玩家'
+      },
+      travel: {
+        title: '旅行',
+        desc: '探索新的文化和目的地。近期重点关注亚太地区'
+      },
+      cycling: {
+        title: '骑行',
+        desc: '享受户外骑行的乐趣'
+      },
+      language: {
+        title: '语言学习',
+        desc: '目前正在沉浸式学习中文'
+      }
+    },
+    contact: {
+      tag: '联系我',
+      title: '保持联系',
+      intro: "我正在积极寻找经济学与技术交叉领域的机会——能够发挥我的IT经验和经济学训练的数据驱动型岗位。欢迎2026年8月开始的实习和初级职位机会。",
+      footer: '© 2026 Jorge Paula Pinheiro · 使用React构建'
+    }
   }
 }
 
@@ -416,6 +598,13 @@ function App() {
                   onClick={() => setLanguage('fr')}
                 >
                   <span className="lang-label">FR</span>
+                </button>
+                <span className="lang-divider">/</span>
+                <button 
+                  className={`lang-btn ${lang === 'zh' ? 'active' : ''}`}
+                  onClick={() => setLanguage('zh')}
+                >
+                  <span className="lang-label">中文</span>
                 </button>
               </div>
             </li>

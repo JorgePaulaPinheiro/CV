@@ -37,8 +37,9 @@ const About = () => {
             data analytics, and finance</span>.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            Currently completing an intensive <strong>Mandarin program</strong> to strengthen my international profile 
-            and cultural adaptability for cross-border opportunities — particularly in Swiss-European-Asian markets.
+            <strong>Currently based in Chengdu, China</strong>, completing an intensive <strong>Mandarin program</strong> to strengthen my international profile 
+            and cultural adaptability for cross-border opportunities — particularly in Swiss-European-Asian markets. 
+            My permanent base remains <strong>Lausanne, Switzerland</strong>.
           </p>
         </div>
         

@@ -22,7 +22,7 @@ const Hero = () => {
         
         <div className="flex items-center justify-center gap-2 text-gray-400 mb-8">
           <MapPin size={18} />
-          <span>Swiss & Portuguese National • Open to International Opportunities</span>
+          <span>Currently in Chengdu, China • Based in Lausanne, Switzerland • Swiss & Portuguese National</span>
         </div>
         
         <a 
