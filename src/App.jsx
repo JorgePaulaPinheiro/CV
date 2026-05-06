@@ -264,11 +264,14 @@ const translations = {
         company: 'CHUV — Centre Hospitalier Universitaire Vaudois, Lausanne',
         date: '2017 – 2025',
         items: [
-          "Installation, maintenance et dépannage du matériel informatique (10 000+ postes de travail)",
-          "Interventions sur des systèmes non standards et spécialisés nécessitant analyse et adaptation",
-          "Support technique aux utilisateurs : diagnostic, résolution et documentation des incidents",
-          "Rédaction et standardisation des procédures techniques pour l'équipe",
-          "Travail méthodique sous pression en respectant priorités et délais"
+          "Gestion du parc informatique (10 000+ postes) via SCCM : installation, maintenance et dépannage hardware et software",
+          "Configuration et déploiement d'iPhone via AirWatch / Workspace ONE",
+          "Configuration de téléphones Cisco via Agile Provisioning",
+          "Interventions sur du matériel médical et des systèmes non standards",
+          "Tenue du guichet support et assistance aux utilisateurs : diagnostic et résolution des incidents",
+          "Dépannage des imprimantes et des périphériques réseau",
+          "Rédaction et standardisation de procédures techniques pour l'équipe",
+          "Travail méthodique sous pression avec respect des priorités et des délais"
         ]
       },
       studentJobsTitle: 'Jobs Étudiants',
@@ -324,7 +327,7 @@ const translations = {
       },
       soft: {
         title: '🤝 Soft Skills',
-        tags: ['Rigueur', 'Synthèse', 'Adaptabilité Interculturelle', 'Mobilité Internationale', 'Documentation', 'Collaboration']
+        tags: ['Rigueur', 'Support Utilisateurs', 'Confidentialité', 'Documentation', 'Synthèse', 'Adaptabilité Interculturelle', 'Mobilité Internationale', 'Collaboration']
       },
       languages: {
         title: '🌍 Langues',
