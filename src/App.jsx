@@ -65,7 +65,7 @@ const translations = {
         title: 'CFC in Computer Science',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "Comprehensive generalist training: development (C#, Python), databases (SQL), networking, systems (Windows/Linux), technical support"
+        desc: "Comprehensive generalist training: development (C#), databases (SQL), networking, systems (Windows/Linux), technical support"
       },
       epfl: {
         title: 'EPFL — Swiss Federal Institute of Technology',
@@ -247,7 +247,7 @@ const translations = {
         title: 'CFC en Informatique',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "Formation généraliste complète : développement (C#, Python), bases de données (SQL), réseaux, systèmes (Windows/Linux), support technique"
+        desc: "Formation généraliste complète : développement (C#), bases de données (SQL), réseaux, systèmes (Windows/Linux), support technique"
       },
       epfl: {
         title: 'EPFL — École polytechnique fédérale de Lausanne',
@@ -429,7 +429,7 @@ const translations = {
         title: '计算机科学CFC证书',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "全面的通识培训：开发（C#、Python）、数据库（SQL）、网络、系统（Windows/Linux）、技术支持"
+        desc: "全面的通识培训：开发（C#）、数据库（SQL）、网络、系统（Windows/Linux）、技术支持"
       },
       epfl: {
         title: '洛桑联邦理工学院（EPFL）',
