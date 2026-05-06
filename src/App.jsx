@@ -69,7 +69,7 @@ const translations = {
       },
       epfl: {
         title: 'EPFL — Swiss Federal Institute of Technology',
-        date: '2012 – 2015',
+        date: '2011 – 2015',
         subtitle: 'Microtechnology · Propédeutique 4.41/6 · Bachelor not completed',
         desc: "Initial engineering training: programming (C), mathematics, physics, statistics — solid analytical foundation before career pivot"
       }
@@ -251,7 +251,7 @@ const translations = {
       },
       epfl: {
         title: 'EPFL — École polytechnique fédérale de Lausanne',
-        date: '2012 – 2015',
+        date: '2011 – 2015',
         subtitle: 'Microtechnique · Propédeutique 4.41/6 · Bachelor non terminé',
         desc: "Formation initiale en ingénierie : programmation (C), mathématiques, physique, statistiques — base analytique solide avant réorientation"
       }
@@ -433,7 +433,7 @@ const translations = {
       },
       epfl: {
         title: '洛桑联邦理工学院（EPFL）',
-        date: '2012 – 2015',
+        date: '2011 – 2015',
         subtitle: '微技术 · 预科 4.41/6 · 学士未完成',
         desc: "工程基础训练：编程（C）、数学、物理、统计学——在职业转型前打下了扎实的分析基础"
       }
