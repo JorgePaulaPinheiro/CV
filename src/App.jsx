@@ -429,7 +429,7 @@ const translations = {
         title: '计算机科学CFC证书',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "全面的通识培训：开发（C#）、数据库（SQL）、网络、系统（Windows/Linux）、技术支持"
+        desc: "全面的通识培训：开发（C#、JavaScript、PHP）、数据库（SQL）、网络、系统（Windows/Linux）、技术支持"
       },
       epfl: {
         title: '洛桑联邦理工学院（EPFL）',
