@@ -23,7 +23,7 @@ const translations = {
       title: 'Bridging Technology & Economics',
       p1: "Economics student with solid professional experience in information technology, currently completing my bachelor's degree while engaged in an intensive language program abroad alongside my studies.",
       p2: 'I aim to pivot my career toward economic and financial analysis, leveraging both my technical skills and academic training. My background combines 8 years of IT infrastructure experience with rigorous quantitative training in econometrics, macroeconomics, and financial modeling.',
-      p3: '<strong>Currently based in Chengdu, China</strong>, completing an intensive <strong>Mandarin program</strong> as a CSC Scholarship recipient to strengthen my international profile and cultural adaptability for cross-border opportunities — particularly in Swiss-European-Asian markets. My permanent base remains <strong>Lausanne, Switzerland</strong>.',
+      p3: 'Currently in Chengdu, China, completing an intensive Mandarin program as a CSC Scholarship recipient. Based in Lausanne, Switzerland.',
       stats: {
         years: 'Years IT Experience',
         gpa: 'Grade / 6',
@@ -65,7 +65,7 @@ const translations = {
         title: 'CFC in Computer Science',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "Comprehensive generalist training: development (C#), databases (SQL), networking, systems (Windows/Linux), technical support"
+        desc: "Comprehensive generalist training: development (C#, JavaScript, PHP), databases (SQL), networking, systems (Windows/Linux), technical support"
       },
       epfl: {
         title: 'EPFL — Swiss Federal Institute of Technology',
@@ -82,9 +82,12 @@ const translations = {
         company: 'CHUV — Centre Hospitalier Universitaire Vaudois, Lausanne',
         date: '2017 – 2025',
         items: [
-          'Installation, maintenance and troubleshooting of IT equipment (10,000+ workstations)',
-          'Interventions on non-standard and specialized systems requiring analysis and adaptation',
-          'Technical support to users: diagnosis, resolution and incident documentation',
+          'IT park management (10,000+ workstations) via SCCM: installation, maintenance and hardware/software troubleshooting',
+          'iPhone configuration and deployment via AirWatch / Workspace ONE',
+          'Cisco phone configuration via Agile Provisioning',
+          'Interventions on medical equipment and non-standard systems',
+          'Helpdesk support and user assistance: diagnosis and resolution of incidents',
+          'Printer and network peripheral troubleshooting',
           'Writing and standardization of technical procedures for the team',
           'Methodical work under pressure respecting priorities and deadlines'
         ]
@@ -142,7 +145,7 @@ const translations = {
       },
       soft: {
         title: '🤝 Soft Skills',
-        tags: ['Rigorous', 'Synthesis', 'Cross-cultural Adaptability', 'International Mobility', 'Documentation', 'Collaboration']
+        tags: ['Rigorous', 'User Support', 'Confidentiality', 'Documentation', 'Synthesis', 'Cross-cultural Adaptability', 'International Mobility', 'Collaboration']
       },
       languages: {
         title: '🌍 Languages',
@@ -205,7 +208,7 @@ const translations = {
       title: 'Allier Technologie & Économie',
       p1: "Étudiant en économie avec une solide expérience professionnelle en informatique, actuellement en fin de bachelor tout en suivant un programme intensif de langue à l'étranger en parallèle de mes études.",
       p2: "Je vise à réorienter ma carrière vers l'analyse économique et financière, en m'appuyant à la fois sur mes compétences techniques et ma formation académique. Mon parcours combine 8 ans d'expérience en infrastructure IT avec une formation quantitative rigoureuse en économétrie, macroéconomie et modélisation financière.",
-      p3: "<strong>Actuellement basé à Chengdu, Chine</strong>, en tant que boursier CSC suivant un programme intensif de <strong>mandarin</strong> pour renforcer mon profil international et mon adaptabilité culturelle aux opportunités transfrontalières — notamment sur les marchés suisse-européen-asiatique. Ma base permanente reste <strong>Lausanne, Suisse</strong>.",
+      p3: "Actuellement à Chengdu, Chine, en tant que boursier CSC suivant un programme intensif de mandarin. Basé à Lausanne, Suisse.",
       stats: {
         years: "Années d'exp. IT",
         gpa: 'Note / 6',
@@ -247,7 +250,7 @@ const translations = {
         title: 'CFC en Informatique',
         date: '2015 – 2017',
         subtitle: 'CPNV · 5.3/6',
-        desc: "Formation généraliste complète : développement (C#), bases de données (SQL), réseaux, systèmes (Windows/Linux), support technique"
+        desc: "Formation généraliste complète : développement (C#, JavaScript, PHP), bases de données (SQL), réseaux, systèmes (Windows/Linux), support technique"
       },
       epfl: {
         title: 'EPFL — École polytechnique fédérale de Lausanne',
@@ -388,7 +391,7 @@ const translations = {
     about: {
       tag: '关于我',
       title: '技术与经济学的交汇',
-      p1: "我是一名拥有扎实信息技术专业背景的经济学学生，目前正在中国成都完成学士学位，同时参加密集型中文课程。",
+      p1: "我是一名拥有扎实信息技术专业背景的经济学学生，目前正在通过瑞士远程大学完成学士学位，同时在中国成都参加密集型中文课程。",
       p2: "我的目标是转向经济与金融领域，充分发挥我的技术能力和学术训练。我的背景融合了8年IT基础设施经验，以及计量经济学、宏观经济学和金融建模方面的严谨定量培训。",
       p3: "目前在中国成都，作为CSC奖学金获得者完成密集型中文课程。常驻瑞士洛桑。",
       stats: {
@@ -449,9 +452,12 @@ const translations = {
         company: 'CHUV — 洛桑大学中心医院',
         date: '2017 – 2025',
         items: [
-          "IT设备的安装、维护和故障排除（10,000+ 工作站）",
-          "对非标准和专业系统进行干预，需要分析和适应能力",
-          "为用户提供技术支持：诊断、解决和记录事件",
+          "通过SCCM管理IT设备群（10,000+台）：安装、维护和软硬件故障排除",
+          "通过AirWatch / Workspace ONE配置和部署iPhone",
+          "通过Agile Provisioning配置Cisco电话",
+          "对医疗设备和非标准系统进行干预",
+          "负责服务台支持并协助用户：诊断和解决事件",
+          "打印机和网络外设故障排除",
           "为团队编写和标准化技术程序",
           "在压力下按优先级和截止日期进行有条理的工作"
         ]
@@ -509,7 +515,7 @@ const translations = {
       },
       soft: {
         title: '🤝 软技能',
-        tags: ['严谨细致', '综合分析', '跨文化适应', '国际流动性', '文档编写', '团队协作']
+        tags: ['严谨细致', '用户支持', '保密意识', '文档编写', '综合分析', '跨文化适应', '国际流动性', '团队协作']
       },
       languages: {
         title: '🌍 语言',
@@ -689,7 +695,7 @@ function App() {
                   <li>{t.education.bachelor.courses}</li>
                 </ul>
                 <div className="thesis-box">
-                  <strong>{t.education.bachelor.thesisTitle}</strong>
+                  <span className="thesis-label">{t.education.bachelor.thesisTitle}</span>
                   <p className="thesis-title">{t.education.bachelor.thesis}</p>
                   <p className="thesis-subject">
                     <em>{t.education.bachelor.thesisSubject}</em>
@@ -724,8 +730,8 @@ function App() {
                 </div>
                 <p className="timeline-subtitle">{t.education.china.subtitle}</p>
                 <ul className="timeline-list">
-                  <li><strong>{t.education.china.csc.split(' — ')[0]}</strong> — {t.education.china.csc.split(' — ')[1]}</li>
-                  <li>Intensive language program (25+ hours/week) — <strong>{t.education.china.gpa}</strong> {t.education.china.gpaDesc}</li>
+                  <li>{t.education.china.csc}</li>
+                  <li>Intensive language program (25+ hours/week) — {t.education.china.gpa} {t.education.china.gpaDesc}</li>
                   <li>{t.education.china.immersion}</li>
                   <li>{t.education.china.adaptability}</li>
                 </ul>
