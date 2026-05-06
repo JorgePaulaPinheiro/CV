@@ -14,7 +14,7 @@ const translations = {
     hero: {
       greeting: "Hello, I'm",
       title: 'Economics · Data · IT — Available August 2026',
-      location: '📍 Lausanne, Switzerland · 🎓 Bachelor in Economics · 🇨🇳 Learning Mandarin',
+      location: '📍 Currently in Chengdu, China · Based in Lausanne, Switzerland · 🎓 Bachelor in Economics',
       ctaPrimary: 'Get in Touch',
       ctaSecondary: 'Learn More'
     },
@@ -23,7 +23,7 @@ const translations = {
       title: 'Bridging Technology & Economics',
       p1: "Economics student with solid professional experience in information technology, currently completing my bachelor's degree while engaged in an intensive language program abroad alongside my studies.",
       p2: 'I aim to pivot my career toward economic and financial analysis, leveraging both my technical skills and academic training. My background combines 8 years of IT infrastructure experience with rigorous quantitative training in econometrics, macroeconomics, and financial modeling.',
-      p3: 'Currently based in China as a CSC Scholarship recipient, I have developed practical cross-cultural skills through daily immersion in an international academic environment. Trilingual in French and Portuguese, fluent in English, and learning Mandarin — I am comfortable working across different cultural and professional contexts.',
+      p3: '<strong>Currently based in Chengdu, China</strong>, completing an intensive <strong>Mandarin program</strong> as a CSC Scholarship recipient to strengthen my international profile and cultural adaptability for cross-border opportunities — particularly in Swiss-European-Asian markets. My permanent base remains <strong>Lausanne, Switzerland</strong>.',
       stats: {
         years: 'Years IT Experience',
         gpa: 'Grade / 6',
@@ -196,7 +196,7 @@ const translations = {
     hero: {
       greeting: "Bonjour, je suis",
       title: 'Économie · Data · IT — Disponible août 2026',
-      location: '📍 Lausanne, Suisse · 🎓 Bachelor en Économie · 🇨🇳 Apprentissage du Mandarin',
+      location: '📍 Actuellement à Chengdu, Chine · Basé à Lausanne, Suisse · 🎓 Bachelor en Économie',
       ctaPrimary: 'Me contacter',
       ctaSecondary: 'En savoir plus'
     },
@@ -205,7 +205,7 @@ const translations = {
       title: 'Allier Technologie & Économie',
       p1: "Étudiant en économie avec une solide expérience professionnelle en informatique, actuellement en fin de bachelor tout en suivant un programme intensif de langue à l'étranger en parallèle de mes études.",
       p2: "Je vise à réorienter ma carrière vers l'analyse économique et financière, en m'appuyant à la fois sur mes compétences techniques et ma formation académique. Mon parcours combine 8 ans d'expérience en infrastructure IT avec une formation quantitative rigoureuse en économétrie, macroéconomie et modélisation financière.",
-      p3: "Actuellement basé en Chine en tant que boursier CSC, j'ai développé des compétences interculturelles concrètes à travers l'immersion quotidienne dans un environnement académique international. Trilingue en français et portugais, courant en anglais et en apprentissage du mandarin — je suis à l'aise pour travailler dans des contextes culturels et professionnels variés.",
+      p3: "<strong>Actuellement basé à Chengdu, Chine</strong>, en tant que boursier CSC suivant un programme intensif de <strong>mandarin</strong> pour renforcer mon profil international et mon adaptabilité culturelle aux opportunités transfrontalières — notamment sur les marchés suisse-européen-asiatique. Ma base permanente reste <strong>Lausanne, Suisse</strong>.",
       stats: {
         years: "Années d'exp. IT",
         gpa: 'Note / 6',
